@@ -1,0 +1,10 @@
+{
+  "name": "intro-to-typescript",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
