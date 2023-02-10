@@ -19,5 +19,6 @@ Then each time you use it:
 
 3. In your second window, if you want to you can run the code in individual compiled Javascript files -- bear in mind you'll only see anything appear here if you've added console logging.  To run a file compiled into Javascript from Typescript (most of the examples in this project), run the command `node lib/filename.js` and replace `filename` with the particular file name you want to use e.g. `node lib/1-typescript-strict.js`  A couple of files in the `src` directory are just written in Javascript already, you can run those by doing e.g. `node src/1-javascript-freedom.js`
 
+  > You don't need to run the code / it isn't useful for all of the files.  A lot of this repo is just about looking at the code in your code editor.  When you do run a file, you will only see any output if there are `console.log` statements.
   > Make sure to use a `.js` ending as here we're running the compiled Javascript files, not the Typescript source (which is `.ts`)
   > How we're doing this here isn't generally how you'd run your code in practice, it's just to give us a simple way to try out different things as part of this demo.
